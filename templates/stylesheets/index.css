@@ -21,12 +21,14 @@ html {
 section.header {
 	display: block;
 	width: 70%;
+	max-width: 1120px;
 	margin: 50px auto 10px auto;
 }
 
 section#about {
 	display: block;
 	width: 70%;
+	max-width: 1120px;
 	margin: 35px auto 10px auto;
 	font-family: 'Inconsolata', monospace;
 	font-size: 22px;
@@ -50,6 +52,7 @@ section#about h2 {
 section#work {
 	display: block;
 	width: 70%;
+	max-width: 1120px;
 	margin: 35px auto 10px auto;
 	font-family: 'Inconsolata', monospace;
 	font-size: 22px;
@@ -101,6 +104,7 @@ section#work header a {
 section#projects {
 	display: block;
 	width: 70%;
+	max-width: 1120px;
 	margin: 35px auto 10px auto;
 	font-family: 'Inconsolata', monospace;
 	font-size: 22px;
@@ -124,6 +128,7 @@ section#projects h2 {
 section#contact {
 	display: block;
 	width: 70%;
+	max-width: 1120px;
 	margin: 35px auto 30px auto;
 	font-family: 'Inconsolata', monospace;
 	font-size: 22px;
