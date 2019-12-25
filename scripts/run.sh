@@ -1,1 +1,2 @@
-nohup ./portfolio &> /dev/null & echo $! > /home/admin/run/portfolio.pid
+mkdir -p ~/run
+nohup ./portfolio &> /dev/null & echo $! > ~/run/portfolio.pid

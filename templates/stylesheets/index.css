@@ -1,0 +1,224 @@
+:root {
+	--accent-blue: #4be3d4;
+	--background-black: #22292f;
+	--terminal-black: #1e1e1e;
+	--terminal-gray: #3d4852;
+	--terminal-green: #55c321;
+	--terminal-red: #f85c49;
+	--terminal-yellow: #e4c41d;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	background: var(--background-black);
+}
+
+section.header {
+	display: block;
+	width: 70%;
+	margin: 50px auto 10px auto;
+}
+
+section#about {
+	display: block;
+	width: 70%;
+	margin: 35px auto 10px auto;
+	font-family: 'Inconsolata', monospace;
+	font-size: 22px;
+	color: white;
+	background: var(--terminal-black);
+	padding: 25px;
+	border-radius: 5px;
+	line-height: 1.5;
+}
+
+section#about em {
+	font-weight: 600;
+	color: var(--accent-blue);
+}
+
+section#about h2 {
+	margin-bottom: 15px;
+	font-size: 25px;
+}
+
+section#work {
+	display: block;
+	width: 70%;
+	margin: 35px auto 10px auto;
+	font-family: 'Inconsolata', monospace;
+	font-size: 22px;
+	color: white;
+	background: var(--terminal-black);
+	padding: 25px;
+	border-radius: 5px;
+	line-height: 1.5;
+}
+
+section#work em {
+	font-weight: 600;
+	color: var(--accent-blue);
+}
+
+section#work h2 {
+	margin-bottom: 15px;
+	font-size: 25px;
+}
+
+section#work ul {
+	margin-left: 25px;
+	font-weight: 400;
+}
+
+section#work h3 {
+	font-weight: 600;
+	font-size: 23px;
+}
+
+section#work .separator {
+	margin: 30px 0;
+	height: 1px;
+	background: var(--terminal-gray);
+}
+
+section#work header {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+section#work header a {
+	font-size: 22px;
+	font-weight: 400;
+	color: white;
+}
+
+section#projects {
+	display: block;
+	width: 70%;
+	margin: 35px auto 10px auto;
+	font-family: 'Inconsolata', monospace;
+	font-size: 22px;
+	color: white;
+	background: var(--terminal-black);
+	padding: 25px;
+	border-radius: 5px;
+	line-height: 1.5;
+}
+
+section#projects em {
+	font-weight: 600;
+	color: var(--accent-blue);
+}
+
+section#projects h2 {
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+
+section#contact {
+	display: block;
+	width: 70%;
+	margin: 35px auto 30px auto;
+	font-family: 'Inconsolata', monospace;
+	font-size: 22px;
+	color: white;
+	background: var(--terminal-black);
+	padding: 25px;
+	border-radius: 5px;
+	line-height: 1.5;
+}
+
+section#contact em {
+	font-weight: 600;
+	color: var(--accent-blue);
+}
+
+section#contact h2 {
+	margin-bottom: 15px;
+	font-size: 25px;
+}
+
+section#contact main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+section#contact main a {
+	color: white;
+}
+
+section.header nav {
+	display: flex;
+	justify-content: flex-end;
+	margin-bottom: 15px;
+}
+
+section.header nav a {
+	color: var(--terminal-gray);
+	font-size: 22px;
+	margin-left: 30px;
+	font-weight: bold;
+	font-family: 'Inconsolata', monospace;
+	text-decoration: none;
+}
+
+section.header nav a:hover {
+	color: var(--accent-blue);
+}
+
+section.header header {
+	background: var(--terminal-gray);
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	border-radius: 5px 5px 0 0;
+}
+
+section.header span.button {
+	flex-shrink: 0;
+	display: inline-block;
+	border-radius: 50%;
+	margin: 10px 0 10px 12px;
+	width: 20px;
+	height: 20px;
+}
+
+section.header span.button.red {
+	background: var(--terminal-red);
+}
+
+section.header span.button.yellow {
+	background: var(--terminal-yellow);
+}
+
+section.header span.button.green {
+	background: var(--terminal-green);
+}
+
+section.header main {
+	display: block;
+	background: var(--terminal-black);
+	border-radius: 0 0 5px 5px;
+}
+
+section.header p {
+    font-family: 'Inconsolata', monospace;
+	font-size: 25px;
+	margin: 0px;
+	padding: 25px 25px;
+	color: white;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+section.header p em {
+	color: var(--accent-blue);
+}
