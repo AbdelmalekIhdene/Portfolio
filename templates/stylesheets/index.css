@@ -125,6 +125,33 @@ section#projects h2 {
 	margin-bottom: 15px;
 }
 
+section#projects ul {
+	margin-left: 25px;
+	font-weight: 400;
+}
+
+section#projects li {
+	font-size: 23px;
+}
+
+section#projects h3 {
+	font-weight: 600;
+	font-size: 23px;
+}
+
+section#projects footer#netdata-links {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding-top: 20px;
+}
+
+section#projects footer#netdata-links a {
+	font-size: 22px;
+	font-weight: 400;
+	color: white;
+}
+
 section#contact {
 	display: block;
 	width: 70%;

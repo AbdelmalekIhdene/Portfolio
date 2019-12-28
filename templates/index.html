@@ -60,6 +60,21 @@
 		<section id="projects">
 			<h2><em>#</em> Projects<h2>
 			<article>
+				<h3>Scalable Linode Cluster (3 Nodes)</h3>
+				<ul>
+					<li>Stateless Golang applications are sharded across two upstream nodes</li>
+					<li>NGINX load balancer proxies/logs web requests from/to every service/application on the cluster</li>
+					<li>Cron jobs rotate logs and keep SSL certificates updated on a weekly basis</li>
+					<li>Git hook and shell script pipeline automatically deploys master commits to the upstream nodes</li>
+					<li>Virtual private network and firewalls (UFW) secure traffic across the nodes</li>
+					<li>SSH daemon only allows public key authentication to non-root users</li>
+					<li>Netdata monitors and displays the resources of all nodes of the cluster</li>
+				</ul>
+				<footer id="netdata-links">
+					<a href="/proxy/metrics/">Proxy Metrics</a>
+					<a href="/node-one/metrics/">Node-One Metrics</a>
+					<a href="/node-two/metrics/">Node-Two Metrics</a>
+				</footer>
 			</article>
 		</section>
 		<section id="contact">
