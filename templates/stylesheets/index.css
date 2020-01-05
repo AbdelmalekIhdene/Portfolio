@@ -115,6 +115,12 @@ section#projects {
 	line-height: 1.5;
 }
 
+section#projects .separator {
+	margin: 30px 0;
+	height: 1px;
+	background: var(--terminal-gray);
+}
+
 section#projects em {
 	font-weight: 600;
 	color: var(--accent-blue);
@@ -139,14 +145,14 @@ section#projects h3 {
 	font-size: 23px;
 }
 
-section#projects footer#netdata-links {
+section#projects footer#links {
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
 	padding-top: 20px;
 }
 
-section#projects footer#netdata-links a {
+section#projects footer#links a {
 	font-size: 22px;
 	font-weight: 400;
 	color: white;
